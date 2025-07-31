@@ -1,0 +1,33 @@
+{
+  "name": "krww-solidity-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:krww": "hardhat test test/KRWW.js",
+    "test:wonder": "hardhat test test/WONDER.js",
+    "test:skrww": "hardhat test test/sKRWW.js",
+    "test:swonder": "hardhat test test/sWONDER.js",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:krww": "hardhat run scripts/deployKRWW.js",
+    "deploy:wonder": "hardhat run scripts/deployWONDER.js",
+    "deploy:skrww": "hardhat run scripts/deploysKRWW.js",
+    "deploy:swonder": "hardhat run scripts/deploysWONDER.js",
+    "deploy:localhost": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:krww:localhost": "hardhat run scripts/deployKRWW.js --network localhost",
+    "deploy:wonder:localhost": "hardhat run scripts/deployWONDER.js --network localhost",
+    "deploy:skrww:localhost": "hardhat run scripts/deploysKRWW.js --network localhost",
+    "deploy:swonder:localhost": "hardhat run scripts/deploysWONDER.js --network localhost",
+    "node": "hardhat node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "hardhat": "^2.26.1"
+  }
+}
